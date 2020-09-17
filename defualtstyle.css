@@ -1,0 +1,79 @@
+/* 
+In general, I'd not recommend using tag selectors (e.g., a) to target elements 
+for styling purposes because tag selectors are not specific enough and can easily 
+get overridden. Just stick with class selectors instead. 
+Here are some reasons why: https://frontstuff.io/you-need-to-stop-targeting-tags-in-css
+*/
+
+.gameboard {
+    height: 70vmin;
+    width: 125vmin;
+    border: #fcfcfc 8px solid;
+    color:rgba(16, 14, 168, 0.904);
+    background-color: #0f0e0e;
+    font-size: 50px;
+    position: relative;
+    left: 135px;
+    font-family: Geneva,Verdana, Tahoma, sans-serif;
+}
+a {
+    text-decoration: none;
+}
+.greeting {
+    text-align: center;
+    color: #ebecec;
+    font-family: Geneva,Verdana, Tahoma, sans-serif;
+}
+body {
+   background-color: #cfc8c8
+}
+.gameheader {
+    background-color:none;
+    font-size: 30px;
+    font-family: Geneva,Verdana, Tahoma, sans-serif;
+    position: relative;
+    width: 125vmin;
+    left: 135px;
+}
+p {
+    color: #ebecec;
+    text-align: center;
+    text-decoration: none;
+    position: fixed;
+}
+.hide {
+    display: none;
+}
+.next {
+    position: relative;
+    bottom: -500px;
+    font-family: Geneva,Verdana, Tahoma, sans-serif;
+}
+.show-answer {
+    position: relative;
+    bottom: -10px;
+    font-size: 25px;
+    text-decoration: none;
+    background-color: white;
+    font-family: Geneva,Verdana, Tahoma, sans-serif;
+    border: none;
+}
+.show-answer:hover{
+    background-color: rgb(7, 10, 175);
+    font-weight:bold
+}
+.quest {
+   position: relative;
+   top: -100px;  
+   text-align: center;  
+   font-family: Geneva,Verdana, Tahoma, sans-serif;
+}
+.ans {
+    position: relative;
+    text-align: center;
+    font-family: Geneva,Verdana, Tahoma, sans-serif;
+}
+a {
+    text-decoration: #312f2f;
+    color: #ebecec;
+}
